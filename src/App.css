@@ -18,14 +18,14 @@ body {
   width: 100%;
   position: absolute;
   margin-top: 0%;
+  
 
 }
+
 
 .videos {
   text-align: center;
   margin-top: 100px;
-  
-  
 }
 
 .firstline {
@@ -35,7 +35,7 @@ body {
   height: 55px;
   z-index: 0;
   position: relative;
-  margin-top: 55px;
+  margin-top: 15px;
   
   /* opacity: 0.5; */
 }
@@ -95,6 +95,29 @@ body {
   border: none;
   background: black;
   margin-right: 5px;
-  
-  
+}
+
+
+.sections {
+  background-color: white;
+  color: black;
+  text-align: left;
+  width: 100%;
+ 
+}
+
+#intro {
+  margin: 5%;
+}
+#lit{
+  margin: 5%;
+}
+#method {
+  margin: 5%;
+}
+#analysis {
+  margin: 5%;
+}
+#future {
+  margin: 5%;
 }
