@@ -35,7 +35,7 @@ function Main(props) {
     </div>
 <br></br>
 
-<div id="video"><iframe class="iframe" src={mainContent[0]} iframe width="560" height="315" frameborder="0" allow="autoplay" allow="fullscreen" mute="true"></iframe> </div>
+<div id="video"><iframe class="iframe" src={mainContent[0]} iframe width="560" height="315" frameborder="0" allow="autoplay" allow="fullscreen" mute="true" loop="true"></iframe> </div>
 </div>
   )
 

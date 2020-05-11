@@ -20,14 +20,15 @@ body {
   /* opacity: 0.5; */
 }
 #Intro {
-  color: black;
+  color: white;
   font-size: 15px;
   width: 100px;
   height: 25px;
   z-index: 1;
   opacity: 1; 
   border: none;
-  background: none;
+  background: black;
+  margin-right: 5px;
 }
 #Litreview {
   color: white;
@@ -38,6 +39,7 @@ body {
   opacity: 1; 
   border: none;
   background: black;
+  margin-right: 5px;
 }
 #Method {
   color: white;
@@ -48,6 +50,7 @@ body {
   opacity: 1; 
   border: none;
   background: black;
+  margin-right: 5px;
 }
 
 #Analysis {
@@ -58,7 +61,8 @@ body {
   z-index: 1;
   opacity: 1; 
   border: none;
-  background: none;
+  background: black;
+  margin-right: 5px;
 }
 
 #Futureplans {
@@ -70,4 +74,5 @@ body {
   opacity: 1; 
   border: none;
   background: black;
+  margin-right: 5px;
 }
