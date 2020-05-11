@@ -12,12 +12,9 @@ function App() {
 } 
 
 function Main(props) {
-
-
-
   return (
 
-    <div id= "learnmore"> 
+<div id= "titlestuff"> 
 
 
 <h1><strong>Interdisciplinary Analysis of Big Tech Companies in Cities</strong> </h1>
@@ -28,15 +25,18 @@ function Main(props) {
 <div className="firstline">
 
       <button id="Intro" onClick>Intro</button>
-      <button id="Litreview" onClick>Lit Review</button>
+      <button id="Litreview" onClick>Literature</button>
       <button id="Method" onClick>Method</button>
       <button id="Analysis" onClick>Analysis</button>
-      <button id="Futureplans" onClick>Future Plans</button>
+      <button id="Futureplans" onClick>Future </button>
     </div>
 <br></br>
 
+<div class="videos">
 <div id="video"><iframe class="iframe" src={mainContent[0]} iframe width="560" height="315" frameborder="0" allow="autoplay" allow="fullscreen" mute="true" loop="true"></iframe> </div>
-</div>
+</div></div>
+
+
   )
 
 }
