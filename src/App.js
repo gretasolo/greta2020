@@ -1,7 +1,20 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState, useEffect, useRef, Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import ScrollButton from 'react-scroll-button'
 
+// class ScrollComponent extends Component {
+//   render() {
+//       return (
+//           <ScrollButton 
+//               behavior={'smooth'} 
+//               buttonBackgroundColor={'red'}
+//               iconType={'arrow-up'}
+//               style= {{fontSize: '24px'}}
+//           />
+//       );
+//   }
+// }
 let mainContent = ["https://www.youtube.com/embed/onvlPpOiNsY?autoplay=1&lpp=1&autopause=0" ]
 function App() {
   return (
@@ -17,7 +30,7 @@ function Main(props) {
 <div id= "titlestuff"> 
 
 <div className='main'>
-<h1><strong>Interdisciplinary Analysis of Big Tech Companies in Cities</strong> </h1>
+<h1><strong>Interdisciplinary Analysis of Tech Companies in Cities</strong> </h1>
 
 <div id="titlelines"><strong><p id="titleline"> By Greta Solomon </p> </strong></div>
 </div>
@@ -25,6 +38,9 @@ function Main(props) {
 
 <div className="firstline">
       <button id="Intro" onClick>Intro</button>
+
+
+
       <button id="Background" onClick>Background</button>
       <button id="Litreview" onClick>Literature</button>
       <button id="Method" onClick>Method</button>
@@ -62,8 +78,8 @@ In August of 2018 I was at a blockchain conference in Berlin. Cryptographers, te
   <div id="lit">
   <p>Literature Review</p>
   <img src= "https://i.ibb.co/ZSNMRpB/JMJ4025.jpg" height = "300" width = "500" />
-  <p>Approaching Interdisciplinarity 
-	For the purpose of this research, it is important to start by defining interdisciplinarity and the current makeup of how it operates in order to test and analyze a method of proposing collaboration. The “Logics of Interdisciplinarity” in the Economy and Society journal is one jumping off point for this investigation. Writer Andrew Barry, a Professor in the Department of Geography at the University College of London, has a background in science and technology studies and has conducted research related to IT, pharmaceuticals, oil industries, and environmental and technological politics. At the Oxford University Centre for the Environment, Barry worked with Cambridge University Professor Georgina Born, as well as Research Associate Gisa Weszkalnys to conduct research on the “Logic of Interdisciplinarity”. They argue that instead of interdisciplinarity as the addition of two or more disciplines, there are two modes of modern interdisciplinarity, “Integrative-synthesis” and “subordination-service”. “Integrative-synthesis” hopes to facilitate “epistemic change”. This kind of synthesis takes a more incorporative approach, rather than the commonly thought of “interdisciplinarity” that tends to be more additive. It is unclear where the line is then drawn for transdisciplinarity. The authors explain “Subordination-service” as the arts and social sciences reinforcing the natural science and engineering work and vice versa. The examination of key vocabulary used in the ten journal articles later on in the method and analysis sections aims to apply a combination of both interdisciplinarity concepts. On one hand, “integrative-synthesis” interdisciplinarity in identifying key areas of divergence as well as the “subordination-service” through the overarching goal of both disciplines to improve their field, whether that be technological innovations or more livable cities. 
+  <p><br></br><br></br>Approaching Interdisciplinarity 
+	<br></br><br></br>For the purpose of this research, it is important to start by defining interdisciplinarity and the current makeup of how it operates in order to test and analyze a method of proposing collaboration. The “Logics of Interdisciplinarity” in the Economy and Society journal is one jumping off point for this investigation. Writer Andrew Barry, a Professor in the Department of Geography at the University College of London, has a background in science and technology studies and has conducted research related to IT, pharmaceuticals, oil industries, and environmental and technological politics. At the Oxford University Centre for the Environment, Barry worked with Cambridge University Professor Georgina Born, as well as Research Associate Gisa Weszkalnys to conduct research on the “Logic of Interdisciplinarity”. They argue that instead of interdisciplinarity as the addition of two or more disciplines, there are two modes of modern interdisciplinarity, “Integrative-synthesis” and “subordination-service”. “Integrative-synthesis” hopes to facilitate “epistemic change”. This kind of synthesis takes a more incorporative approach, rather than the commonly thought of “interdisciplinarity” that tends to be more additive. It is unclear where the line is then drawn for transdisciplinarity. The authors explain “Subordination-service” as the arts and social sciences reinforcing the natural science and engineering work and vice versa. The examination of key vocabulary used in the ten journal articles later on in the method and analysis sections aims to apply a combination of both interdisciplinarity concepts. On one hand, “integrative-synthesis” interdisciplinarity in identifying key areas of divergence as well as the “subordination-service” through the overarching goal of both disciplines to improve their field, whether that be technological innovations or more livable cities. 
   <br></br><br></br>Additionally, Professor of the History of Science and of Physics Peter Galison, and Professor of Philosophy David Stump offer another layer of interdisciplinarity in science in their book, The Disunity of Science: Boundaries, Contexts, and Power. They argue that, “By shifting our attention away from the process of choosing between competing theories to the processes that allow a group to maintain cohesion, build a common socio-disciplinary identity, and articulate a worldview, this view suggests that competing groups do not need to engage in a fully constructive dialogue in order to produce science”. This challenges my original response to the blockchain discussion to assume that a solution would be an in-person dialogue. Thus, pushing the response for this capstone project topic of technology companies in cities to strive beyond engaging a tech company CEO and an urban planner, though that could support the overall exploration, and to look for other means of collaboration beyond theory debate.
   <br></br><br></br>Furthermore, this capstone proposes data as a source of prompting future collaboration.  Cathy O Neil’s Weapons of Math Destruction dissects the way that artificial intelligence algorithms expose human biases both in the data being used to train these algorithms and the design of the algorithm themselves. Demanding transparency of the algorithm design and the data itself is one of the unique features of artificial intelligence that has a lot of potential to force societies to reflect on  the innate biases that shape our world today. Despite the absence of machine learning or artificial intelligence in this study, those technologies are proposed in the “future plans” section and the O’neil’s same logic of transparency still applies. 
   <br></br><br></br>Data is a language used heavily by urban planners in geolocation mapping, demographic research, housing location and pricing, and multitudes of other subjects. Technology companies are often building the technology that urban planners and countless other experts and individuals use. This is one of the main reasons that data seems like an appropriate tool to help the two disciplines start a new collaborative conversation. Because this capstone is aimed to test whether data can similarly expose points of semantic intersection and contention between or within urban studies and technology businesses, it will be important to analyze the text as data with the framework that there should be as little bias as possible, and in the future, bringing in experts to confirm that the results of the data are not being represented as a means of securing a hypothesis, instead as evidence of whatever outcome.  
@@ -100,7 +116,7 @@ The logics of interdisciplinarity project conducted an 18-month study on the fie
 <img src="https://i.ibb.co/8NJLYNj/Tech.png" ></img>
 <br></br><br></br>Column Chart 3. Made using ATLAS.ti and visualized in Google charts.
 <img src="https://i.ibb.co/0JBXc1g/Screen-Shot-2020-05-15-at-6-17-25-PM.png" ></img>
-<br></br><br></br>Keyword Connections and Themes Visualization. Made in ATLAS.ti
+<br></br><br></br>Keyword Connections and Themes Visualization. Made in ATLAS.ti.
 <br></br><br></br>Above is the Keyword Connections and Themes Visualization. This mapped all the keywords provided in the ten articles excluding location specific terms such as “Hydeerbad”.. Two variations include the keywords for the article, “The Role of Geographic Location in the Acquisition Strategies of High-Technology Firms: Evidence from Computer Networking Equipment Industry” are sourced from EBSCO, noted next to each term, because the authors did not provide their own key terms. The other variation is that the Amazon release, “Amazon Selects New York City and Northern Virginia for New Headquarters” does not have any key terms. The left side shows the connection of the “city” articles to their respective key terms, and the right side the “tech” term connections. In the middle are three common themes of “business/industry”, “cluster”, “innovation”, “planning”, and “knowledge”. On the left hand side, there is one additional theme of “cities”, which also includes “city”. Other key terms that did not have direct common repetition were grouped respectively based on their relations within the articles on the side of the category of article they came from. 
 <img src="https://i.ibb.co/m8rY8Sc/Screen-Shot-2020-05-15-at-12-28-29-PM.png" ></img>
 <br></br><br></br>Article References Table. Made in ATLAS.ti, exported to Microsoft Excel. 
